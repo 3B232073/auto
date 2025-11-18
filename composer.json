@@ -6,5 +6,10 @@
             "email": "3b232073@gm.sytudent.ncut.edu.tw"
         }
     ],
-    "require": {}
+    "require": {},
+	"autoload":{
+		"psr-4":{
+			"Demo\\":"./src/Demo"
+		}
+	}
 }
